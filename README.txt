@@ -7,7 +7,7 @@ I have submitted the following files:
 
 How to run code.
 Disclaimer: You will need to be able to compile the file using jdk compiler
-Step 1: Navigate to the PSET11-StefanosStoikos-Solution Folder
+Step 1: Navigate to the Solution Folder
 Step 2: Using the command javac Solution.java, compile the file, it will hopefully produce 2 CLASS files 
 Step 3: Place the input file on the same Location as the Solution.java file inside the folder 
 Step 4: Using the terminal, and the command java Solution <inputfilename.txt> <outputfilename.txt> run the code 
