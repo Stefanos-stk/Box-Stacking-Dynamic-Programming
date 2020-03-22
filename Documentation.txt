@@ -11,7 +11,8 @@ MaxHeight: Using dynamic programming it find the max height
 GetBlocks: Finds the sequence of blocks required for the max height
 WriteToFile: Writes to file using filewriter
 FindIndex: Finds the index of an element in a given array
-Running-Time: Θ(n^2)*, max Height is traversed using a nested forloop.
+Running-Time: Θ(n^2)*, max Height is traversed using a nested for loop O(n^2). The sorting of the rotations based on the base area takes O(nlogn)
 Space-Requirement: Θ(n), the arrays/arraylists we are going to be creating are: maxHeight,rotations,blockSequence. All of them will take up space Θ(n) given n elements.
 Testing: I tested my code with all the given test cases the problem set gave us and I also came up with some edge cases.
-
+Reccurence Relation: R(i) <- max{h_i, max{R(j)+h_i}}, where j>i, and where width_j>width_i && length_j > length_i.
+Correctness: The algorithm is correct since after we store it for every block we pick the best possible block meaning the one with that produces the max height. 
