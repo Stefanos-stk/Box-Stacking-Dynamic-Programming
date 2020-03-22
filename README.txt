@@ -3,7 +3,7 @@ PSET 11 - Stefanos Stoikos
 I have submitted the following files:
 -README.txt: this file which explains what I have done
 -Solution.java: A java solution file w/comments.
--Documentation file: Explain my code a bit further, why it works, run-time, etc.
+-documentation.txt file: Explain my code a bit further, why it works, run-time, etc.
 
 How to run code.
 Disclaimer: You will need to be able to compile the file using jdk compiler
