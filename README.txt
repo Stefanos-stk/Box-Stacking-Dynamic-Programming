@@ -1,4 +1,6 @@
-PSET 11 - Stefanos Stoikos
+PSET 11 - Stefanos Stoikos - Block Stacking Algorithm - Dynamic Programming
+
+You are given a set of n types of rectangular 3-D boxes, where the i^th box has height h(i), width w(i) and depth d(i) (all real numbers). You want to create a stack of boxes which is as tall as possible, but you can only stack a box on top of another box if the dimensions of the 2-D base of the lower box are each strictly larger than those of the 2-D base of the higher box.
 
 I have submitted the following files:
 -README.txt: this file which explains what I have done
